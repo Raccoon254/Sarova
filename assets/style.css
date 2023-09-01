@@ -7,19 +7,19 @@
 }
 
 .elementor-element-c77f163 {
-    background-image: url('./images/1\ \(10\).jpg') !important;
-    background-size: cover;
-    background-position: center;
-}
-
-.elementor-element-493f282{
     background-image: url('./images/1\ \(14\).jpg') !important;
     background-size: cover;
     background-position: center;
 }
 
+.elementor-element-493f282{
+    background-image: url('./images/1\ \(10\).jpg') !important;
+    background-size: cover;
+    background-position: center;
+}
+
 .elementor-element-623c59eb{
-    background-image: url('./images/1\ \(12\).jpg') !important;
+    background-image: url('./images/1\ \(14\).jpg') !important;
     background-size: cover;
     background-position: center;
 }
@@ -42,3 +42,11 @@
     background-position: center;
 }
 
+.contact{
+    font-size: small;
+    margin-top: 20px;
+}
+
+.contact-list{
+    gap: 30px;
+}
