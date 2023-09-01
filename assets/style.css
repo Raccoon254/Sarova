@@ -7,7 +7,7 @@
 }
 
 .elementor-element-c77f163 {
-    background-image: url('./images/1\ \(14\).jpg') !important;
+    background-image: url('./images/logo-w.png') !important;
     background-size: cover;
     background-position: center;
 }
@@ -19,13 +19,20 @@
 }
 
 .elementor-element-623c59eb{
-    background-image: url('./images/1\ \(14\).jpg') !important;
+    background-image: url('./images/logo-w.png') !important;
     background-size: cover;
     background-position: center;
 }
 
-.elementor-element-09d2afa {
-    background-image: url('./images/1\ \(1\).jpg') !important;
+.drinks-custom {
+    background-image: url('./images/1\ \(8\).jpg') !important;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.foods-custom{
+    background-image: url('./images/1\ \(11\).jpg') !important;
     background-size: cover;
     background-position: center;
 }
@@ -49,4 +56,36 @@
 
 .contact-list{
     gap: 30px;
+}
+
+.main-button{
+    margin-top: 20px;
+    background-color: #62fcaf;
+}
+
+.blob-button {
+    background-color: #62fcaf45;
+    border: 1px solid #62fcaf;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    backdrop-filter: blur(3px);
+  }
+  
+  .blob-button:hover {
+    background-color: #62fcaf;
+    color: black;
+  }
+  @media (max-width: 768px) {
+    .elementor-element-c77f163 {
+        background-image: url('./images/logo-w-s.png') !important;
+    }
+    .elementor-element-623c59eb{
+        background-image: url('./images/logo-w-s.png') !important;
+        background-size: cover;
+        background-position: center;
+    }
 }
