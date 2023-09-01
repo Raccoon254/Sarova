@@ -30,6 +30,12 @@
     background-position: center;
 }
 
+.elementor-element-2a88{
+    background-image: url('./images/1\ \(13\).jpg') !important;
+    background-size: cover;
+    background-position: center;
+}
+
 
 .foods-custom{
     background-image: url('./images/1\ \(11\).jpg') !important;
@@ -61,6 +67,11 @@
 .main-button{
     margin-top: 20px;
     background-color: #62fcaf;
+}
+
+.blur-2{
+    backdrop-filter: blur(2px);
+    background-color: rgba(26, 25, 25, 0.582);
 }
 
 .blob-button {
