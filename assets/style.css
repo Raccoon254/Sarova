@@ -69,15 +69,25 @@
     background-color: #62fcaf;
 }
 
+.green{
+    mix-blend-mode: difference;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.mt-30{
+    padding: 20px 0px 0px 0px !important;
+}
+
 .blur-2{
     backdrop-filter: blur(2px);
     background-color: rgba(26, 25, 25, 0.582);
 }
 
 .blob-button {
-    background-color: #62fcaf45;
+    background-color: #62fcaf;
     border: 1px solid #62fcaf;
-    color: white;
+    color: rgb(3, 3, 3);
     padding: 15px 50px;
     border-radius: 50px;
     font-size: 18px;
@@ -87,8 +97,9 @@
   }
   
   .blob-button:hover {
-    background-color: #62fcaf;
+    background-color: #62fcaf45;
     color: black;
+    backdrop-filter: blur(6px);
   }
   @media (max-width: 768px) {
     .elementor-element-c77f163 {
@@ -99,4 +110,8 @@
         background-size: cover;
         background-position: center;
     }
+}
+
+.mb-30{
+    margin-bottom: 30px;
 }
